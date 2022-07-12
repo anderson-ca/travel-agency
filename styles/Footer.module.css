@@ -1,0 +1,56 @@
+.footer {
+  /* background-color: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%); */
+  /* border: solid 2px red; */
+  background-color: #1b1818;
+  height: 30vh;
+  width: 100vw;
+  padding: 5%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.footer > * {
+  /* border: solid 2px red; */
+}
+
+.footerText {
+  /* border: solid 2px blue; */
+  width: 30vw;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.8rem;
+  letter-spacing: 0.1rem;
+}
+
+.footerForm {
+  /* border: solid 1px purple; */
+  display: flex;
+  gap: 1rem;
+}
+
+.formInput {
+  /* border: solid 2px blue; */
+  height: 2.2rem;
+  width: 12vw;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  border: none;
+}
+
+.footerBtn {
+  background-color: rgba(0, 0, 0, 0);
+  border: solid white 1px;
+  font-size: 1rem;
+  padding: 0.5rem;
+  color: white;
+  border-radius: 0.2rem;
+  width: 5rem;
+  height: 2.2rem;
+}
+
+.footerBtn:hover {
+  background-color: white;
+  color: black;
+}
