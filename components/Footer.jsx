@@ -17,14 +17,16 @@ const Footer = () => {
       </form>
       <div className={styles.footerLinks}>
         <ul className={styles.contact}>
-          <li>Contact</li>
-          <li>Support</li>
-          <li>Destinations</li>
+          <li className={styles.footerLink}>Reach Out</li>
+          <li className={styles.footerLink}>Contact</li>
+          <li className={styles.footerLink}>Support</li>
+          <li className={styles.footerLink}>Destinations</li>
         </ul>
         <ul className={styles.social}>
-          <li>FaceBook</li>
-          <li>Tritter</li>
-          <li>Facebook</li>
+          <li className={styles.footerLink}>Social Media</li>
+          <li className={styles.footerLink}>FaceBook</li>
+          <li className={styles.footerLink}>Tritter</li>
+          <li className={styles.footerLink}>Facebook</li>
         </ul>
       </div>
     </div>

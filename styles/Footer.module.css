@@ -2,7 +2,7 @@
   /* background-color: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%); */
   /* border: solid 2px red; */
   background-color: #1b1818;
-  height: 30vh;
+  min-height: 30vh;
   width: 100vw;
   padding: 5%;
   display: flex;
@@ -43,14 +43,66 @@
   background-color: rgba(0, 0, 0, 0);
   border: solid white 1px;
   font-size: 1rem;
-  padding: 0.5rem;
+  padding: 0.5rem 0.9rem;
   color: white;
   border-radius: 0.2rem;
   width: 5rem;
   height: 2.2rem;
+  letter-spacing: 0.1rem;
+  text-align: center;
 }
 
 .footerBtn:hover {
   background-color: white;
   color: black;
+}
+
+.footerLinks {
+  /* border: solid red 2px; */
+  width: 40vw;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  gap: 10vw;
+  padding: 0.5rem;
+}
+
+.footerLinks > * {
+}
+
+.footerLink:nth-child(1) {
+  /* border: solid 1px blue; */
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
+
+.footerLink {
+  padding: 0.5rem;
+  letter-spacing: 0.1rem;
+}
+
+@media (max-width: 960px) {
+    .footer {
+        /* flex-flow: row wrap; */
+
+    }
+
+    .footerText {
+        /* border: solid 2px blue; */
+        width: 70vw;
+        font-size: 0.9rem;
+        line-height: 1.5rem;
+        /* letter-spacing: 0.2rem; */
+      }
+
+
+      .footerForm {
+          width: 80vw;
+          justify-content: center;
+      }
+
+      .formInput {
+        width: 30vw;
+      }
+
 }
