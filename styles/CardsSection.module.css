@@ -1,0 +1,32 @@
+.cards {
+  /* border: solid 2px red; */
+  background-color: var(--white);
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  color: var(--black);
+  padding: 8vh 0;
+  gap: 4vh;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  /* padding: 4vh 0; */
+}
+
+.cardsWrapper {
+  border: solid 2px red;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 2rem;
+  padding: 0.5rem 10vw;
+}
+
+.section {
+  width: 100vw;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  gap: 2.5rem;
+}

@@ -27,9 +27,6 @@ const Navbar = () => {
         <li className={styles.navItem}>
           <Link href="/Services">Services</Link>
         </li>
-        <li className={styles.navItem}>
-          <Link href="/SignUp">Sign In</Link>
-        </li>
       </ul>
       <div
         className={styles.mobileBtn}
