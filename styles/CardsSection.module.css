@@ -1,5 +1,4 @@
 .cards {
-  /* border: solid 2px red; */
   background-color: var(--white);
   display: flex;
   flex-flow: column nowrap;
@@ -16,17 +15,53 @@
 }
 
 .cardsWrapper {
-  border: solid 2px red;
-  display: flex;
+  /* border: solid 2px rgb(0, 0, 255); */
   flex-flow: column nowrap;
+  display: flex;
+  width: 80%;
   gap: 2rem;
-  padding: 0.5rem 10vw;
 }
 
 .section {
-  width: 100vw;
+  width: 100%;
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
-  gap: 2.5rem;
+  overflow: hidden;
+  gap: 2rem;
+}
+
+.section > * {
+  /* border: solid 1px red; */
+  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+  border-radius: 0.8rem;
+  overflow: hidden;
+}
+
+.section:nth-child(1) > * {
+  border-radius: 0.8rem;
+  flex-basis: 39%;
+}
+
+.section:nth-child(2) > * {
+  /* border: solid 1px red; */
+  flex-basis: 25%;
+}
+
+.imageWrapper {
+  display: grid;
+  /* border: solid 2px blue; */
+}
+
+.cardInfo {
+  /* border: solid 1px red; */
+  padding: 0 1rem;
+}
+
+@media (max-width: 960px) {
+  .section {
+    /* border: solid 2px red; */
+    flex-flow: column nowrap
+  }
+
 }
