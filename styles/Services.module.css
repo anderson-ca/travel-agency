@@ -14,23 +14,41 @@
 }
 
 .serviceTable {
-  border: solid 2px blue;
+  /* border: solid 2px blue; */
   height: 30vh;
-  width: 80%;
+  width: 95%;
   height: 80%;
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 5rem;
 }
 
 .tierCard {
-  border: solid 1px red;
+  background-color: var(--black);
+  box-shadow: 0px 5px 31px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
   padding: 0.5rem;
   border-radius: 0.8rem;
   height: 40vh;
   flex-basis: 20%;
+  color: var(--white);
+}
+
+.cardTitle {
+  font-size: 2.5rem;
+  padding: 0.5rem;
+  border-bottom: 0.5px var(--white) solid;
+}
+
+.cardBody {
+  padding: 20% 10%;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 0.8rem;
+  align-items: flex-start;
+  letter-spacing: 0.1rem;
 }
 
 @media (max-width: 960px) {
@@ -47,5 +65,11 @@
     border: solid 1px blue;
     flex-basis: 30%;
     width: 80%;
+    height: 60vh;
+  }
+
+  .cardBody {
+    padding: 1.5rem 0 0 0.5rem;
+    flex-flow: row nowrap;
   }
 }
