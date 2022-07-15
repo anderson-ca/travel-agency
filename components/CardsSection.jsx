@@ -11,6 +11,7 @@ const CardsSection = () => {
             <>
               <div className={styles.imageWrapper}>
                 <Image
+                  className={styles.image}
                   src="/img-9.jpeg"
                   alt="card image"
                   height={300}
@@ -28,6 +29,7 @@ const CardsSection = () => {
             <>
               <div className={styles.imageWrapper}>
                 <Image
+                  className={styles.image}
                   src="/img-2.jpeg"
                   alt="card image"
                   height={300}
@@ -45,6 +47,7 @@ const CardsSection = () => {
             <>
               <div className={styles.imageWrapper}>
                 <Image
+                  className={styles.image}
                   src="/img-3.jpeg"
                   alt="card image"
                   height={300}
@@ -60,6 +63,7 @@ const CardsSection = () => {
             <>
               <div className={styles.imageWrapper}>
                 <Image
+                  className={styles.image}
                   src="/img-4.jpeg"
                   alt="card image"
                   height={300}
@@ -75,6 +79,7 @@ const CardsSection = () => {
             <>
               <div className={styles.imageWrapper}>
                 <Image
+                  className={styles.image}
                   src="/img-8.jpeg"
                   alt="card image"
                   height={300}

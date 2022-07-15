@@ -17,13 +17,14 @@ const Navbar = () => {
   return (
     <div className={styles.navbar}>
       <div className={styles.navLogo}>
-        <span>TRVL</span>
-        <ImAirplane />
+        <Link href="/" passHref>
+          <a>
+            <span>TRVL</span>
+            <ImAirplane />
+          </a>
+        </Link>
       </div>
       <ul ref={navMenuRef} className={styles.navMenu}>
-        <li className={styles.navItem}>
-          <Link href="/">Home</Link>
-        </li>
         <li className={styles.navItem}>
           <Link href="/Services">Services</Link>
         </li>

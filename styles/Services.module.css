@@ -1,0 +1,27 @@
+.services {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  width: 100vw;
+  color: black;
+  height: 100vh;
+}
+
+.serviceTable {
+  border: solid 2px blue;
+  height: 30vh;
+  width: 80%;
+  height: 80%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.tierCard {
+  border: solid 2px red;
+  padding: 0.5rem;
+  border-radius: 0.8rem;
+  height: 40vh;
+}
