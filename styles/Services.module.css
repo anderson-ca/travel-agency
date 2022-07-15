@@ -7,6 +7,12 @@
   height: 100vh;
 }
 
+.title {
+  padding: 1.5rem;
+  font-size: 4rem;
+  letter-spacing: 0.1rem;
+}
+
 .serviceTable {
   border: solid 2px blue;
   height: 30vh;
@@ -20,8 +26,26 @@
 }
 
 .tierCard {
-  border: solid 2px red;
+  border: solid 1px red;
   padding: 0.5rem;
   border-radius: 0.8rem;
   height: 40vh;
+  flex-basis: 20%;
+}
+
+@media (max-width: 960px) {
+  .services {
+    gap: 2rem;
+  }
+
+  .serviceTable {
+    border: solid 2px purple;
+    flex-flow: column nowrap;
+  }
+
+  .tierCard {
+    border: solid 1px blue;
+    flex-basis: 30%;
+    width: 80%;
+  }
 }
